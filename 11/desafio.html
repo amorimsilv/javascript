@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Pais</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eu sou estrangeiro ou brasileiro?</h1>
+    Responda a seguir, em qual país você se localiza: <input type="text" name="local" id="local">
+    <input type="button" value="Enviar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+            var p1 = window.document.getElementById('local')
+            var res = window.document.querySelector('div#res')
+            var location = (p1.value)
+
+            res.innerHTML = `<p>Você atualmente mora no país ${location}</p>`
+            if (p1.value == 'Brasil') {
+                res.innerHTML = `<p>Você é Brasileiro!</p>`
+            } else {
+                res.innerHTML = `<p>Você é estrangeiro!</p>`
+            }
+        }
+    </script>
+</body>
+</html>
