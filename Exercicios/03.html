@@ -24,11 +24,20 @@
     <script>
         
         var clique = window.document.getElementById('clique')
-
         clique.addEventListener('click', clicar)
 
-        function clicar() {
-            window.prompt('Digite um número inteiro qualquer')
+        function clicar() { 
+            var numero1 = window.prompt('Digite um número inteiro qualquer: ')
+
+            var resultado1 = -- numero1;
+            var resultado2 = ++ resultado1;
+
+            window.alert(`Antes de ${numero1}, temos o número ${resultado1} 
+Depois de ${numero1}, temos o número ${resultado2}` )
+
+
+// DESISTO
+
         }
     </script>
 </body>
