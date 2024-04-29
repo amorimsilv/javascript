@@ -1,5 +1,5 @@
 body {
-    background-color: purple;
+    background-color: rgb(70, 142, 236);
     font: normal 15pt Arial;
 }
 
@@ -15,15 +15,6 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
-}
-
-#foto {
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    display: block;
-    margin-top: 15px;
-    margin-left: 120px;
 }
 
 footer {
