@@ -18,7 +18,7 @@ function soma(numero1, numero2) {
     return somaDosNumeros
 }
 
-const meusNumeros = soma(4,6)
+const meusNumeros = soma(10,200)
 
 console.log(meusNumeros)
 
