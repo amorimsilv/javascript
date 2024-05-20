@@ -1,0 +1,32 @@
+/*
+https://www.youtube.com/watch?v=BWPUSXzSWA8
+
+O QUE É JSON?
+
+JSON = JavaScript Object Notation;
+
+Um formato de representação de dados
+
+Mais simples que XML, que é utilizado para fins parecidos;
+
+Utiliza o formato de chave e valor;
+
+É leve para ser enviado por requisições;
+
+Muito utilizado para API e também arquivos de configuração;
+
+
+
+TIPOS DE DADOS
+
+o JSON aceita diversos tipos de dados;
+
+Strings - "Olá Mundo";
+
+Números - 1 ou 12.54
+
+Arrays - [1, 2, 3];
+
+Objetos - {"nome": "Matheus"};
+
+Dados nulos - null;

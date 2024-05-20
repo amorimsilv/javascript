@@ -25,7 +25,7 @@ console.log(multiplicacao)
 
 const multi = (numero1, numero2) => numero1 * numero2
 
-const multiplicacao = multi(2,5)
+const multiplicacao = multi(2,5)               // CODIGO SIMPLIFICADO / RESUMIDO
 
 console.log(multiplicacao)
 

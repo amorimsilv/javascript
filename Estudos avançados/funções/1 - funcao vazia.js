@@ -20,11 +20,13 @@ function incrementa() {
 incrementa()
 console.log(valor)
 
-let valor2 = 50
+
+
+let valor2 = 10
 
 function incrementar() {
-    valor = valor + 70
+    valor2 = valor2 + 70
 }
 
 incrementar()
-console.log(valor)
+console.log(valor2)
