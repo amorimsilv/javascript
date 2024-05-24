@@ -4,29 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="src/css/style.css">
-    <title>Side Bar</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>Home | Amorim</title>
 </head>
 <body>
-
-    <!--https://www.youtube.com/watch?v=lZVQGjTEX-w-->
     
     <nav id="sidebar">
         <div id="sidebar_content">
             <div id="user">
-            <img src="src/img/avatar.jpeg" alt="Avatar" id="user_avatar">   
+            <img src="../src/img/avatar.png" alt="Avatar" id="user_avatar">
 
             <p id="user_infos">
                 <span class="item-description">
-                    Fulano de tal
-                </span>
-                <span class="item-description">
-                    Lorem ipsum
+                    Convidado
                 </span>
             </p>
         </div>
 
         <ul id="side_items">
+
             <li class="side-item active">
                 <a href="#">
                     <i class="fa-solid fa-house"></i>
@@ -38,27 +34,18 @@
 
             <li class="side-item">
                 <a href="#">
-                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
                     <span class="item-description">
-                        Home
+                        Sobre Mim
                     </span>
                 </a>
             </li>
 
             <li class="side-item">
                 <a href="#">
-                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-solid fa-globe"></i>
                     <span class="item-description">
-                        Home
-                    </span>
-                </a>
-            </li>
-
-            <li class="side-item">
-                <a href="#">
-                    <i class="fa-solid fa-house"></i>
-                    <span class="item-description">
-                        Home
+                        Projetos
                     </span>
                 </a>
             </li>
@@ -74,9 +61,8 @@
         </ul>
 
         <button id="open_btn">
-            <i id="open_btn_icon" class="fa-solid fa-chevron-right"></i>
+            <i id="open_btn_icon" class="fa-solid fa-bars"></i>
         </button>
-        </div>
 
         <div id="logout">
             <button id="logout_btn">
@@ -89,9 +75,6 @@
         </div>
     </nav>
 
-    <main>
-        <h1>Título</h1>
-    </main>
-    <script src="src/javascript/javascript.js"></script>
+    <script src="../src/javascript/javascript.js"></script>
 </body>
 </html>
