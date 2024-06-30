@@ -1,1 +1,1 @@
-// https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_conditions1
+// https://www.w3schools.com/js/js_htmldom_html.asp
