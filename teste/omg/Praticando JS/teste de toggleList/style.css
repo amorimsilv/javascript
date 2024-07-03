@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+#butaotoggle {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.teste {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+}
