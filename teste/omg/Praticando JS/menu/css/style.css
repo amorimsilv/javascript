@@ -1,0 +1,30 @@
+:root {
+    --cor1: #8F8DA6;
+    --cor2: #9F8DA6;
+    --cor3: #978DA6;
+    --cor4: #8D93A6;
+    --cor5: #A68DA3;
+    --cor6: #8066A6;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    display: flex;
+}
+
+#menu-bar {
+    display: flex;
+}
+
+#bar-button {
+    display: flex;
+}
+
+#bar-description {
+    display: flex;
+}
