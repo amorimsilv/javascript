@@ -80,13 +80,16 @@ a:hover:before {
     transform: scaleX(1);
 }
 
-.target {
+main {
     position: absolute;
-    border-bottom: 4px solid transparent;
-    z-index: -1;
-    transform: translateX(-60px);
-  }
+    background-color: gray;
+    width: 100vw;
+    height: 87.5vh;
+    bottom: 0px;
+}
 
-.target {
-    transition: all .35 ease-in-out;
+#image {
+    background-color: red;
+    width: 1518px;
+    height: 633px;
 }
