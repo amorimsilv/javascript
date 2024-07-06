@@ -109,7 +109,7 @@ main {
 #text-home h1 {
     display: flex;
     position: absolute;
-    color: white;
+    color: #ff0000;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 3em;
