@@ -112,12 +112,19 @@ main {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 2.4em;
+    font-size: 3em;
     overflow: hidden;
     letter-spacing: 10px;
 
-    top: 45%;
+    top: 43%;
     left: 9%;
+}
+
+#text-home p {
+    display: flex;
+    position: absolute;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 
