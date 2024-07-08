@@ -6,7 +6,8 @@
     <title>Teste de Menu</title>
     <script src="../javascript/javascript.js"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
 </head>
 <body>
     <nav id="nav">
@@ -15,22 +16,30 @@
         </div>
 
         <ul id="nav-item">
-            <li class="nav-items">
+            <li id="item1" class="nav-items">
                 <a href="">
                     HOME
                 </a>
             </li>
-            <li class="nav-items">
+            <li id="item2" class="nav-items">
                 <a href="">
                     MODELS
                 </a>
             </li>
-            <li class="nav-items">
+            <li id="item3" class="nav-items">
                 <a href="">
                     ABOUT ME
                 </a>
             </li>
         </ul>
+
+        <div id="search">
+            <button id="search-button" class="css-uh3160" aria-label="Search"><span><svg xmlns="http://www.w3.org/2000/svg" width="17.283" height="18.023" viewBox="0 0 17.283 18.023"><g transform="translate(-1463.392 -389.942)"><g><path d="M1470.762,390.983a6.426,6.426,0,1,0,6.425,6.425,6.432,6.432,0,0,0-6.425-6.425m0,13.7a7.37,7.37,0,1,1,7.37-7.37,7.379,7.379,0,0,1-7.37,7.37"></path></g><rect width="0.944" height="7.181" transform="translate(1475.069 402.736) rotate(-43.24)"></rect></g></svg></span></button>
+        </div>
+
+        <div id="config">
+            <button id="config-button" aria-expanded="false" class="burger css-uh3160" aria-label="Open menu"><span><div></div><div></div><div></div></span></button>
+        </div>
     </nav>
 
     <main>
@@ -40,9 +49,14 @@
 
         <div id="text-home">
             <h1>WELCOME!</h1>
-            <p>Explore </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Non, nihil totam excepturi labore ipsum in quos <br> nesciunt iure commodi ratione voluptas eligendi <br> maxime optio eos sequi neque, nisi beatae adipisci </p>
         </div>
 
+        <div id="buttonshome">
+            <button id="buttonshome-explorenow">
+                SEARCH NOW
+            </button>
+        </div>
     </main>
 </body>
 </html>

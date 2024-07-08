@@ -61,6 +61,15 @@ body {
     margin-left: 70px;
 }
 
+#item1:hover,
+#item2:hover,
+#item3:hover {
+    color: #8066A6;
+    transform: scale(1.05, 1.05);
+
+    transition: all .7s ease-in-out;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -87,6 +96,37 @@ a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+
+#search {
+    position: absolute;
+    display: flex;
+    
+    color: white;
+
+    top: 3%;
+    left: 92%;
+}
+
+#search-button {
+    position: absolute;
+    display: flex;
+
+    background-color: transparent;
+    border: none;
+
+    fill: #fff;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    fill: #8066A6;
+    transition: all .5s ease;
+}
+
+.css-uh3160.burger, .css-uh3160 svg {
+    width: 2rem;
+    height: 3rem;
 }
 
 main {
@@ -125,6 +165,41 @@ main {
     position: absolute;
 
     font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+
+    top: 51.5%;
+    left: 9.5%;
+}
+
+#buttonshome {
+    position: absolute;
+
+    top: 67%;
+    left: 9.5%;
+}
+
+#buttonshome-explorenow {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+
+    background-color: rgb(29, 29, 29);
+    color: white;
+
+    width: 200px;
+    height: 50px;
+
+    border-radius: 50px;
+    border: none;
+
+    cursor: pointer;
+}
+
+#buttonshome-explorenow:hover {
+    background-color: #8066A6;
+
+    transition: all .9s ease-in-out;
 }
 
 
