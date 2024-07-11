@@ -225,6 +225,11 @@ main {
     transition: all .9s ease-in-out;
 }
 
+#video {
+    position: absolute;
+
+    bottom: -20%;
+}
 
 
 
