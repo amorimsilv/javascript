@@ -249,6 +249,28 @@ main {
     #config {
         display: none;
     }
+
+    #video {
+        bottom: -20%;
+        left: 0%;
+    }
+
+    #text-home > h1 {
+        font-size: 2em;
+        letter-spacing: 8px;
+        left: 5%;
+        top: 30%;
+    }
+
+    #text-home > p {
+        left: 6%;
+        top: 37%;
+    }
+
+    #buttonshome {
+        top: 53%;
+        left: 6%;
+    }
+
+
 }
-
-
