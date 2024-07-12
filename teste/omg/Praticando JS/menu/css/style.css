@@ -251,7 +251,8 @@ main {
     }
 
     #video {
-        bottom: -10%;
+        position: absolute;
+        bottom: -30%;
         left: 0%;
     }
 
@@ -265,12 +266,12 @@ main {
     #text-home > p {
         left: 6%;
         top: 27%;
-        width: 60%;
+        width: 50%;
         font-size: 0.9em;
     }
 
     #buttonshome {
-        top: 40%;
+        top: 50%;
         left: 6%;
     }
 
