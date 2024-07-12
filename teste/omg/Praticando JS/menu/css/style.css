@@ -237,7 +237,7 @@ main {
     }
 
     #nav {
-        height: 92px;
+        height: 100px;
         z-index: 2;
     }
 
@@ -251,7 +251,7 @@ main {
     }
 
     #video {
-        bottom: -20%;
+        bottom: -10%;
         left: 0%;
     }
 
@@ -259,16 +259,18 @@ main {
         font-size: 2em;
         letter-spacing: 8px;
         left: 5%;
-        top: 30%;
+        top: 20%;
     }
 
     #text-home > p {
         left: 6%;
-        top: 37%;
+        top: 27%;
+        width: 60%;
+        font-size: 0.9em;
     }
 
     #buttonshome {
-        top: 53%;
+        top: 40%;
         left: 6%;
     }
 
