@@ -266,12 +266,12 @@ main {
     #text-home > p {
         left: 6%;
         top: 27%;
-        width: 50%;
+        width: 30%;
         font-size: 0.9em;
     }
 
     #buttonshome {
-        top: 50%;
+        top: 60%;
         left: 6%;
     }
 
