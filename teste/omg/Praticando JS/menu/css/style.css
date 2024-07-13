@@ -27,6 +27,7 @@
 
 body {
     display: flex;
+    background-color: rgb(29, 29, 29);
 }
 
 #nav {
@@ -152,6 +153,10 @@ a:hover:before {
     transition: all 0.9s ease;
 }
 
+#menumobile {
+    display: none;
+}
+
 main {
     position: absolute;
     background-color: transparent;
@@ -237,7 +242,7 @@ main {
     }
 
     #nav {
-        height: 100px;
+        height: 70px;
         z-index: 2;
     }
 
@@ -275,5 +280,19 @@ main {
         left: 6%;
     }
 
+    #logoimage {
+        position: absolute;
+        width: 45px;
+        height: auto;
+        top: 2%;
+    }
 
+    #menumobile {
+        position: absolute;
+        display: flex;
+        font-size: 2.5em;
+        top: 3.5%;
+        left: 90%;
+        color: #fff;
+    }
 }
