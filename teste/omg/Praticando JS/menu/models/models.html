@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Amorim - Home</title>
+    <title>Project Amorim - Models</title>
 
-    <script src="javascript/javascript.js"></script>
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
@@ -21,25 +19,17 @@
 
         <ul id="nav-item">
             <li id="item1" class="nav-items">
-                <a id="filho-item1" href="">
+                <a id="filho-item1" href="../home/home.html">
                     HOME
                 </a>
             </li>
-            <li id="item2" class="nav-items">
-                <a id="filho-item2" href="../models/models.html">
-                    MODELS
-                </a>
-            </li>
+
             <li id="item3" class="nav-items">
                 <a id="filho-item3" href="">
                     ABOUT ME
                 </a>
             </li>
         </ul>
-
-        <div id="search">
-            <i id="search-button" class="fa-solid fa-magnifying-glass"></i>
-        </div>
 
         <div id="config">
             <i id="config-button" class="fa-sharp fa-solid fa-gear"></i>
@@ -51,24 +41,28 @@
     </div>
 
     <main>
-        <!--<div id="image">
-            <img src="../img/home-fundo.jpg" alt="Porsche 911 GT3 RS">
-        </div> -->
 
-        <video id="video" width="1518" controls muted loop autoplay>
-            <source src="../img/video.mp4" type="video/mp4">
-        </video>
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
 
-        <div id="text-home">
-            <h1>WELCOME!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Non, nihil totam excepturi labore ipsum in quos <br> nesciunt iure commodi ratione voluptas eligendi <br> maxime optio eos sequi neque, nisi beatae adipisci </p>
+        <div id="caixas">
+            <span id="description-caixa1">
+                Porsche 911 GT3 RS
+            </span>
+            <div id="caixa1">
+            
+            </div>
+
+            <span id="description-caixa2">
+                McLaren P1
+            </span>
+            <div id="caixa2">
+
+            </div>
         </div>
 
-        <div id="buttonshome">
-            <button id="buttonshome-explorenow">
-                <a href="../wikicars/wikicars.html">SEARCH NOW</a>
-            </button>
-        </div>
     </main>
 </body>
 </html>
